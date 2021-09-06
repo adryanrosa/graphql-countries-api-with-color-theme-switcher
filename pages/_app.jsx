@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import Provider from '../context/Provider';
 
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    console.log('testando');
-  }, []);
-  
-  return <Component { ...pageProps } />;
+function App({ Component, pageProps }) {
+  return (
+    <Provider>
+      <Component { ...pageProps } />
+    </Provider>
+  );
 }
 
-export default MyApp;
+export default App;
