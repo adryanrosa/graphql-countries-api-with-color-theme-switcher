@@ -1,0 +1,131 @@
+@use "../../sass/utils" as *;
+
+.search {
+  margin-bottom: 3rem;
+
+  @include breakpoint-up(large) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  &__icon-search {
+    position: absolute;
+    left: 2rem;
+    z-index: 100;
+    font-size: 0.875rem;
+
+    @include breakpoint-up(large) {
+      font-size: 1rem;
+    }
+  }
+
+  &__item {
+    background-color: var(--clr-element);
+    box-shadow: var(--bs);
+    color: var(--clr-text);
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+    padding: 1.25rem 2rem 1.25rem;
+
+    @include breakpoint-up(large) {
+      font-size: 1rem;
+    }
+  }
+
+  &__input {
+    padding-left: 4rem;
+    border: none;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--clr-input);
+    }
+  }
+
+  &__select {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    position: relative;
+    cursor: pointer;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    @include breakpoint-up(large) {
+      margin-top: 0;
+    }
+  }
+
+  &__icon-chevron {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    font-size: 0.625rem;
+
+    @include breakpoint-up(large) {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__regions {
+    position: absolute;
+    top: 4.1875rem;
+    left: 0;
+    width: 100%;
+    display: none;
+    cursor: pointer;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 0.375rem;
+
+      li {
+        display: flex;
+      }
+    }
+
+    @include breakpoint-up(large) {
+      top: 4.375rem;
+    }
+  }
+
+  &__regions--open {
+    display: block;
+  }
+
+  &__region {
+    color: var(--clr-text);
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    transition: transform 125ms;
+
+    &:focus {
+      outline: none;
+    }
+
+    @include media-hover {
+      &:hover {
+        transform: scale(1.025);
+      }
+    }
+  }
+}
