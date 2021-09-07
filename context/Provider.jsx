@@ -7,8 +7,8 @@ function Provider({ children }) {
 
   const loadStoredTheme = () => {
     const storedTheme = localStorage.getItem('darkMode');
-    if (storedTheme) {
-      setDarkMode(storedTheme);
+    if (storedTheme === 'true') {
+      setDarkMode(true);
     }
   };
 

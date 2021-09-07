@@ -12,7 +12,7 @@ function scssTask() {
 }
 
 function watchTask() {
-  return watch(['sass/main.scss'], scssTask);
+  return watch(['**/*.scss'], scssTask);
 }
 
 exports.default = series(scssTask, watchTask);

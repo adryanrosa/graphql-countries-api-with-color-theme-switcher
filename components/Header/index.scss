@@ -1,0 +1,51 @@
+@use "../../sass/utils" as *;
+
+.header {
+  background-color: var(--clr-element);
+  padding: 2.125rem 0.875rem;
+  box-shadow: var(--bs);
+
+  &__layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: var(--fw-bold);
+
+    @include breakpoint-up(large) {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__theme-switcher {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: var(--clr-text);
+    font-size: 0.875rem;
+    font-weight: var(--fw-regular);
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    svg {
+      font-size: 0.875rem;
+
+      @include breakpoint-up(large) {
+        font-size: 1rem;
+      }
+    }
+
+    @include breakpoint-up(large) {
+      font-size: 1.125rem;
+    }
+  }
+}
