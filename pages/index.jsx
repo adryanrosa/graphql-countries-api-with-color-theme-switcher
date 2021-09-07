@@ -24,33 +24,16 @@ export async function getServerSideProps() {
     countries {
       edges {
         node {
-          name
-          alpha3Code
-          capital
-          region
-          population
-          area
-          borders
           numericCode
-          currencies {
-            edges {
-              node {
-                name
-              }
-            }
-          }
-          languages {
-            edges {
-              node {
-                name
-              }
-            }
-          }
           flag
+          name
+          population
+          region
+          capital
         }
       }
     }
-  }  
+  }
 `;
 
   const url = 'https://graphql.country/graphql';

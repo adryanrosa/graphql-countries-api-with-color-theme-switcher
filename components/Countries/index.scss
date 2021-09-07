@@ -1,0 +1,6 @@
+.countries {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 16.5rem);
+  gap: 4.625rem;
+}
