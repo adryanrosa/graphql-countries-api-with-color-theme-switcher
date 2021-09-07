@@ -24,6 +24,8 @@
     "eslint-config-trybe-frontend": "^1.2.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-sonarjs": "^0.10.0",
+    "graphql": "^15.5.3",
+    "graphql-request": "^3.5.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^9.0.1",

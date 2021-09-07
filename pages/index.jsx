@@ -1,8 +1,10 @@
 import Head from 'next/head';
+import { request, gql } from 'graphql-request';
 
 import Header from '../components/Header';
+import Countries from '../components/Countries';
 
-export default function Home() {
+function Home({ countries }) {
   return (
     <>
       <Head>
@@ -11,6 +13,50 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Countries countries={ countries } />
     </>
   );
 }
+
+export async function getServerSideProps() {
+  const query = gql`
+  {
+    countries {
+      edges {
+        node {
+          name
+          alpha3Code
+          capital
+          region
+          population
+          area
+          borders
+          numericCode
+          currencies {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+          languages {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+          flag
+        }
+      }
+    }
+  }  
+`;
+
+  const url = 'https://graphql.country/graphql';
+  const { countries: { edges } } = await request(url, query);
+
+  return { props: { countries: edges } };
+}
+
+export default Home;
