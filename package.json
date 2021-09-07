@@ -15,6 +15,9 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "dart-sass": "^1.25.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-trybe-frontend": "^1.2.1",
@@ -22,7 +25,8 @@
     "eslint-plugin-sonarjs": "^0.10.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
-    "sass": "^1.39.0"
+    "postcss": "^8.3.6"
   }
 }

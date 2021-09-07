@@ -1,17 +1,18 @@
-const { series } = require('gulp');
-const gulp = require('gulp');
+const { src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const concat = require('gulp-concat');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 
-function buildStyles() {
-  return gulp.src('./sass/**/*.scss')
-    .pipe(concat('main.scss'))
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+function scssTask() {
+  return src('sass/main.scss', { sourcemaps: true })
+    .pipe(sass())
+    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(dest('css', { sourcemaps: '.' }));
 }
 
-function watch() {
-  return gulp.watch(['./sass/**/*.scss'], buildStyles);
+function watchTask() {
+  return watch(['sass/main.scss'], scssTask);
 }
 
-exports.default = series(buildStyles, watch);
+exports.default = series(scssTask, watchTask);

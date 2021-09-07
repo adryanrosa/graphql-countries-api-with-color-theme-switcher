@@ -1,0 +1,23 @@
+:root {
+  --fw-light: 300;
+  --fw-regular: 600;
+  --fw-bold: 800;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  color: var(--clr-text);
+}
+
+// h1,
+// h2,
+// h3 {
+//   font-weight: var(--fw-bold);
+// }
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
