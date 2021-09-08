@@ -1,8 +1,10 @@
 /* eslint-disable react/jsx-max-depth */
+import { useState } from 'react';
 import IconSearch from '../../icons/search.svg';
 import IconChevron from '../../icons/chevron-down.svg';
 
-function Search({ open, setOpen, name, setName, setRegion }) {
+function Search({ name, setName, setRegion }) {
+  const [open, setOpen] = useState(false);
   const regions = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
 
   return (

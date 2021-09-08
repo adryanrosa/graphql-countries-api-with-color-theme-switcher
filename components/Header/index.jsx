@@ -21,9 +21,7 @@ function Header() {
         <button
           className="header__theme-switcher"
           type="button"
-          onClick={ () => {
-            setTheme(newTheme);
-          } }
+          onClick={ () => setTheme(newTheme) }
         >
           {theme === 'dark' ? <IconMoonFill /> : <IconMoon />}
           <span>
