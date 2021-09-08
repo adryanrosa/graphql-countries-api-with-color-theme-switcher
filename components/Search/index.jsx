@@ -3,6 +3,8 @@ import IconSearch from '../../icons/search.svg';
 import IconChevron from '../../icons/chevron-down.svg';
 
 function Search({ open, setOpen, name, setName, setRegion }) {
+  const regions = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
+
   return (
     <form
       className="search"
@@ -25,84 +27,40 @@ function Search({ open, setOpen, name, setName, setRegion }) {
         />
       </div>
 
-      <button
-        type="button"
-        className="search__item search__select"
-        onClick={ () => setOpen(!open) }
-      >
-        Filter by Region
-        <span className="search__icon-chevron">
-          <IconChevron />
-        </span>
+      <div className="search__select-container">
+        <button
+          type="button"
+          className="search__item search__select"
+          onClick={ () => setOpen(!open) }
+        >
+          Filter by Region
+          <span className="search__icon-chevron">
+            <IconChevron />
+          </span>
+        </button>
 
         <div
           className={ `search__item search__regions ${open
             ? 'search__regions--open' : ''}` }
         >
           <ul>
-            <li>
-              <button
-                className="search__region"
-                type="button"
-                onClick={ () => {
-                  setName('');
-                  setRegion('Africa');
-                } }
-              >
-                Africa
-              </button>
-            </li>
-            <li>
-              <button
-                className="search__region"
-                type="button"
-                onClick={ () => {
-                  setName('');
-                  setRegion('Americas');
-                } }
-              >
-                Americas
-              </button>
-            </li>
-            <li>
-              <button
-                className="search__region"
-                type="button"
-                onClick={ () => {
-                  setName('');
-                  setRegion('Asia');
-                } }
-              >
-                Asia
-              </button>
-            </li>
-            <li>
-              <button
-                className="search__region"
-                type="button"
-                onClick={ () => {
-                  setName('');
-                  setRegion('Europe');
-                } }
-              >
-                Europe
-              </button>
-            </li>
-            <li>
-              <button
-                className="search__region"
-                type="button"
-                onClick={ () => {
-                  setName('');
-                  setRegion('Oceania');
-                } }
-              >
-                Oceania
-              </button>
-            </li>
+            {regions.map((region) => (
+              <li key={ region }>
+                <button
+                  className="search__region"
+                  type="button"
+                  onClick={ () => {
+                    setName('');
+                    setRegion(region);
+                  } }
+                >
+                  {region}
+                </button>
+              </li>
+            ))}
           </ul>
         </div>
-      </button>
+      </div>
     </form>
   );
 }
