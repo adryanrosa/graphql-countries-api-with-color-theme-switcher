@@ -41,28 +41,26 @@ function Search({ name, setName, setRegion }) {
           </span>
         </button>
 
-        <div
+        <ul
           className={ `search__item search__regions ${open
             ? 'search__regions--open' : ''}` }
         >
-          <ul>
-            {regions.map((region) => (
-              <li key={ region }>
-                <button
-                  className="search__region"
-                  type="button"
-                  onClick={ () => {
-                    setOpen(false);
-                    setName('');
-                    setRegion(region);
-                  } }
-                >
-                  {region}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
+          {regions.map((region) => (
+            <li key={ region }>
+              <button
+                className="search__region"
+                type="button"
+                onClick={ () => {
+                  setOpen(false);
+                  setName('');
+                  setRegion(region);
+                } }
+              >
+                {region}
+              </button>
+            </li>
+          ))}
+        </ul>
       </div>
     </form>
   );
