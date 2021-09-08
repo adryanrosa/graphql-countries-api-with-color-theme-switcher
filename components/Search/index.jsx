@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-max-depth */
 import { useState } from 'react';
 import IconSearch from '../../icons/search.svg';
 import IconChevron from '../../icons/chevron-down.svg';
