@@ -5,15 +5,12 @@ import Context from '.';
 function Provider({ children }) {
   const [darkMode, setDarkMode] = useState(false);
 
-  const loadStoredTheme = () => {
+  useEffect(() => {
     const storedTheme = localStorage.getItem('darkMode');
+
     if (storedTheme === 'true') {
       setDarkMode(true);
     }
-  };
-
-  useEffect(() => {
-    loadStoredTheme();
   }, []);
 
   useEffect(() => {
