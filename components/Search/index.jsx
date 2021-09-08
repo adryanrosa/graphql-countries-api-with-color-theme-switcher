@@ -50,6 +50,7 @@ function Search({ open, setOpen, name, setName, setRegion }) {
                   className="search__region"
                   type="button"
                   onClick={ () => {
+                    setOpen(false);
                     setName('');
                     setRegion(region);
                   } }
