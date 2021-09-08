@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Head from 'next/head';
 import { request, gql } from 'graphql-request';
 
 import Header from '../components/Header';
@@ -13,11 +12,6 @@ function Home({ countries }) {
 
   return (
     <>
-      <Head>
-        <title>GraphQL Countries API with color theme switcher</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <Header />
       <main className="main">
         <div className="container">
