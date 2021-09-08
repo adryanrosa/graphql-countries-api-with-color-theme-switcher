@@ -38,7 +38,7 @@ function Home({ countries }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const query = gql`
   {
     countries {
