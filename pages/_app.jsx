@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { ThemeProvider } from 'next-themes';
 
 import '../css/main.css';
+import Header from '../components/Header';
 
 function App({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
+      <Header />
       <Component { ...pageProps } />
     </ThemeProvider>
   );

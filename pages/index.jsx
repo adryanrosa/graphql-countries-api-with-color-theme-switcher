@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { request, gql } from 'graphql-request';
 
-import Header from '../components/Header';
 import Countries from '../components/Countries';
 import Search from '../components/Search';
 
@@ -10,32 +9,29 @@ function Home({ countries }) {
   const [regionSearch, setRegionSearch] = useState('');
 
   return (
-    <>
-      <Header />
-      <main className="main">
-        <div className="container">
-          <Search
-            name={ nameSearch }
-            setName={ setNameSearch }
-            setRegion={ setRegionSearch }
-          />
+    <main className="main">
+      <div className="container">
+        <Search
+          name={ nameSearch }
+          setName={ setNameSearch }
+          setRegion={ setRegionSearch }
+        />
 
-          <Countries
-            countries={ countries
-              .filter(({ node: { name, nativeName } }) => (
-                name.toLocaleLowerCase()
-                  .includes(nameSearch.toLocaleLowerCase())
+        <Countries
+          countries={ countries
+            .filter(({ node: { name, nativeName } }) => (
+              name.toLocaleLowerCase()
+                .includes(nameSearch.toLocaleLowerCase())
                 || nativeName.toLocaleLowerCase()
                   .includes(nameSearch.toLocaleLowerCase())))
 
-              .filter(({ node: { region } }) => (
-                region.toLocaleLowerCase()
-                  .includes(regionSearch.toLocaleLowerCase())
-              )) }
-          />
-        </div>
-      </main>
-    </>
+            .filter(({ node: { region } }) => (
+              region.toLocaleLowerCase()
+                .includes(regionSearch.toLocaleLowerCase())
+            )) }
+        />
+      </div>
+    </main>
   );
 }
 
