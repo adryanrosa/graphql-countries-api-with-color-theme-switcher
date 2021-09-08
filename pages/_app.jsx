@@ -1,11 +1,11 @@
 import Head from 'next/head';
+import { ThemeProvider } from 'next-themes';
 
-import Provider from '../context/Provider';
 import '../css/main.css';
 
 function App({ Component, pageProps }) {
   return (
-    <Provider>
+    <ThemeProvider>
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet" />
 
@@ -14,7 +14,7 @@ function App({ Component, pageProps }) {
       </Head>
 
       <Component { ...pageProps } />
-    </Provider>
+    </ThemeProvider>
   );
 }
 

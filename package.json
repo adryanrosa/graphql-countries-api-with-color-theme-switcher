@@ -30,6 +30,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
+    "next-themes": "^0.0.15",
     "postcss": "^8.3.6"
   }
 }

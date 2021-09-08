@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useContext } from 'react';
 import Link from 'next/link';
+import { useTheme } from 'next-themes';
 
-import Context from '../../context';
 import IconMoon from '../../icons/moon.svg';
 import IconMoonFill from '../../icons/moon-fill.svg';
 
 function Header() {
-  const { darkMode, setDarkMode } = useContext(Context);
+  const { theme, setTheme } = useTheme();
+  const newTheme = theme === 'dark' ? 'light' : 'dark';
 
   return (
     <header className="header">
@@ -22,13 +22,12 @@ function Header() {
           className="header__theme-switcher"
           type="button"
           onClick={ () => {
-            localStorage.setItem('darkMode', !darkMode);
-            setDarkMode(!darkMode);
+            setTheme(newTheme);
           } }
         >
-          {darkMode ? <IconMoonFill /> : <IconMoon />}
+          {theme === 'dark' ? <IconMoonFill /> : <IconMoon />}
           <span>
-            {darkMode ? 'Light Mode' : 'Dark Mode'}
+            {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
           </span>
         </button>
       </div>
