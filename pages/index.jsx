@@ -30,8 +30,11 @@ function Home({ countries }) {
           />
           <Countries
             countries={ countries
-              .filter(({ node: { name, region } }) => name.toLocaleLowerCase()
+              .filter(({ node: { name, region, nativeName } }) => (name
+                .toLocaleLowerCase()
                 .includes(nameSearch.toLocaleLowerCase())
+                || nativeName.toLocaleLowerCase()
+                  .includes(nameSearch.toLocaleLowerCase()))
                 && region.toLocaleLowerCase()
                   .includes(regionSearch.toLocaleLowerCase())) }
           />
@@ -50,6 +53,7 @@ export async function getServerSideProps() {
           numericCode
           flag
           name
+          nativeName
           population
           region
           capital
