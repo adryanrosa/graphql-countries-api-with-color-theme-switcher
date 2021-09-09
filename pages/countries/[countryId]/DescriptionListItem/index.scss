@@ -1,0 +1,16 @@
+.details {
+  dl {
+    font-size: 1rem;
+  }
+
+  dd {
+    font-weight: var(--fw-light);
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 90rem) {
+    dl {
+      font-size: 1.125rem;
+    }
+  }
+}

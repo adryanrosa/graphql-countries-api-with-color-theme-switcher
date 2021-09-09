@@ -11,7 +11,7 @@ function Details({ country: { node } }) {
   const { flag, name, nativeName, population, region, subregion, capital, topLevelDomain, currencies, languages, borders } = node;
 
   return (
-    <main className="main">
+    <main className="main details">
       <div className="container">
         <Link href="/">
           <div>
@@ -24,15 +24,15 @@ function Details({ country: { node } }) {
           </div>
         </Link>
 
-        <div className="details-grid">
-          <div className="image-container">
+        <div className="details__grid">
+          <div className="details__image-container">
             <img src={ flag } alt="" />
           </div>
 
-          <div className="text-container">
+          <div className="details__text-container">
             <h2>{name}</h2>
 
-            <div className="description-lists-grid">
+            <div className="details__description-list">
               <dl>
                 <DescriptionListItem title="Native Name" description={ nativeName } />
                 <DescriptionListItem title="Population" description={ population.toLocaleString() } />
