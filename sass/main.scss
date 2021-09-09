@@ -1,6 +1,10 @@
 @use "globals";
 
+@use "../components/UI/Button";
+
 @use "../components/Header";
 @use "../components/Countries";
 @use "../components/Countries/Country";
 @use "../components/Search";
+
+@use "../pages/countries/[countryId]/index.scss";

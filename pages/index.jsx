@@ -41,7 +41,7 @@ export async function getStaticProps() {
     countries {
       edges {
         node {
-          numericCode
+          alpha3Code
           flag
           name
           nativeName

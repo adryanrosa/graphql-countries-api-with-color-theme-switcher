@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
-function Country({ country: { numericCode, flag, name, population, region, capital } }) {
+function Country({ country: { alpha3Code, flag, name, population, region, capital } }) {
   return (
     <div className="card">
-      <Link href={ `/countries${numericCode}` }>
+      <Link href={ `/countries/${alpha3Code}` }>
         <img src={ flag } alt="" />
       </Link>
 
       <div className="card__text-container">
-        <Link href={ `/countries${numericCode}` }>
+        <Link href={ `/countries/${alpha3Code}` }>
           <h3>{name}</h3>
         </Link>
 

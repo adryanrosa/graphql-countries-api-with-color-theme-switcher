@@ -2,12 +2,18 @@
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
 
+import { useEffect, useState } from 'react';
 import IconMoon from '../../icons/moon.svg';
 import IconMoonFill from '../../icons/moon-fill.svg';
 
 function Header() {
   const { theme, setTheme } = useTheme();
   const newTheme = theme === 'dark' ? 'light' : 'dark';
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
 
   return (
     <header className="header">
@@ -23,9 +29,9 @@ function Header() {
           type="button"
           onClick={ () => setTheme(newTheme) }
         >
-          {theme === 'dark' ? <IconMoonFill /> : <IconMoon />}
+          {loaded && theme === 'dark' ? <IconMoonFill /> : <IconMoon />}
           <span>
-            {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+            {loaded && theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
           </span>
         </button>
       </div>
