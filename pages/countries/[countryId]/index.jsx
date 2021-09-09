@@ -80,14 +80,11 @@ export async function getServerSideProps({ query: { countryId } }) {
       edges {
         node {
           name
-          alpha3Code
           capital
           region
           subregion
           population
-          area
           borders
-          numericCode
           topLevelDomain
           currencies {
             edges {
@@ -104,7 +101,6 @@ export async function getServerSideProps({ query: { countryId } }) {
             }
           }
           flag
-          cioc
         }
       }
     }
