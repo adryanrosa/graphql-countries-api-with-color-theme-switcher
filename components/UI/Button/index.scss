@@ -1,3 +1,5 @@
+@use "../../../sass/utils" as *;
+
 .button {
   display: flex;
   align-items: center;
@@ -9,22 +11,20 @@
   border-radius: 0.1875rem;
   box-shadow: var(--bs);
   cursor: pointer;
-}
 
-.arrow-icon-container {
-  display: flex;
-  align-items: center;
-  margin-right: 0.75rem;
-  font-size: 1rem;
-}
+  &__icon-arrow {
+    display: flex;
+    align-items: center;
+    margin-right: 0.75rem;
+    font-size: 1rem;
 
-@media (min-width: 90rem) {
-  .button {
-    font-size: 1.1875rem;
-    padding: 0.375rem 2rem;
+    @include breakpoint-up(x-large) {
+      font-size: 1.125rem;
+    }
   }
 
-  .arrow-icon-container {
-    font-size: 1.125rem;
+  @include breakpoint-up(x-large) {
+    font-size: 1.1875rem;
+    padding: 0.375rem 2rem;
   }
 }

@@ -16,7 +16,7 @@ function Details({ country: { node } }) {
         <Link href="/">
           <div>
             <Button type="button">
-              <div className="arrow-icon-container">
+              <div className="button__icon-arrow">
                 <IconArrow />
               </div>
               Back
