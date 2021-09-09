@@ -1,3 +1,5 @@
+@use "../../../sass/utils" as *;
+
 .details {
   padding: 2.5rem 1.75rem;
 
@@ -36,14 +38,14 @@
   flex-flow: row wrap;
   gap: 1.5rem 0.625rem;
   margin-top: 1.5rem;
-}
 
-.borders-container button {
-  padding: 0;
-  justify-content: center;
-  width: 6rem;
-  height: 1.75rem;
-  font-size: 0.875rem;
+  button {
+    padding: 0;
+    justify-content: center;
+    width: 6rem;
+    height: 1.75rem;
+    font-size: 0.875rem;
+  }
 }
 
 .borders-title,
@@ -55,13 +57,13 @@
   font-weight: var(--fw-light);
 }
 
-@media (max-width: 74.9375rem) {
-  .borders-title {
+.borders-title {
+  @include breakpoint-down(medium) {
     width: 100%;
   }
 }
 
-@media (min-width: 75rem) {
+@include breakpoint-up(large) {
   .details {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -101,7 +103,7 @@
   }
 }
 
-@media (min-width: 90rem) {
+@include breakpoint-up(x-large) {
   .details h2 {
     font-size: 2.25rem;
   }
