@@ -1,16 +1,16 @@
+@use "../../../../sass/utils" as *;
+
 .details {
   dl {
     font-size: 1rem;
+
+    @include breakpoint-up(x-large) {
+      font-size: 1.125rem;
+    }
   }
 
   dd {
     font-weight: var(--fw-light);
     margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 90rem) {
-    dl {
-      font-size: 1.125rem;
-    }
   }
 }
