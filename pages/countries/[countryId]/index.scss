@@ -31,35 +31,35 @@
     display: grid;
     gap: 2.875rem;
   }
-}
 
-.borders-container {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 1.5rem 0.625rem;
-  margin-top: 1.5rem;
+  &__borders {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem 0.625rem;
+    margin-top: 1.5rem;
 
-  button {
-    padding: 0;
-    justify-content: center;
-    width: 6rem;
-    height: 1.75rem;
-    font-size: 0.875rem;
+    button {
+      padding: 0;
+      justify-content: center;
+      width: 6rem;
+      height: 1.75rem;
+      font-size: 0.875rem;
+    }
   }
-}
 
-.borders-title,
-.borders-none {
-  font-size: 1rem;
-}
+  &__title,
+  &__none {
+    font-size: 1rem;
+  }
 
-.borders-none {
-  font-weight: var(--fw-light);
-}
+  &__none {
+    font-weight: var(--fw-light);
+  }
 
-.borders-title {
-  @include breakpoint-down(medium) {
-    width: 100%;
+  &__title {
+    @include breakpoint-down(medium) {
+      width: 100%;
+    }
   }
 }
 

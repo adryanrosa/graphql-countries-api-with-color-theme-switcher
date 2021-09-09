@@ -48,8 +48,8 @@ function Details({ country: { node } }) {
               </dl>
             </div>
 
-            <ul className="borders-container">
-              <span className="borders-title">Border Countries:</span>
+            <ul className="details__borders">
+              <span className="details__borders__title">Border Countries:</span>
               {
                 borders.length > 0
                   ? (
@@ -63,7 +63,7 @@ function Details({ country: { node } }) {
                       </li>
                     ))
                   )
-                  : <span className="borders-none">None</span>
+                  : <span className="details__borders__none">None</span>
               }
             </ul>
           </div>
