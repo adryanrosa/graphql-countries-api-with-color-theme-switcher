@@ -29,9 +29,13 @@ function Header() {
           type="button"
           onClick={ () => setTheme(newTheme) }
         >
-          {loaded && theme === 'dark' ? <IconMoonFill /> : <IconMoon />}
+          {loaded && (
+            theme === 'dark' ? <IconMoonFill /> : <IconMoon />
+          )}
           <span>
-            {loaded && theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+            {loaded && (
+              theme === 'dark' ? 'Light Mode' : 'Dark Mode'
+            )}
           </span>
         </button>
       </div>
