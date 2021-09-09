@@ -20,7 +20,6 @@ function Search({ name, setName, setRegion }) {
           className="search__item search__input"
           type="text"
           onChange={ ({ target }) => {
-            setRegion('');
             setName(target.value);
           } }
           value={ name }
@@ -44,6 +43,18 @@ function Search({ name, setName, setRegion }) {
           className={ `search__item search__regions ${open
             ? 'search__regions--open' : ''}` }
         >
+          <li>
+            <button
+              className="search__region"
+              type="button"
+              onClick={ () => {
+                setOpen(false);
+                setRegion('');
+              } }
+            >
+              All
+            </button>
+          </li>
           {regions.map((region) => (
             <li key={ region }>
               <button
@@ -51,7 +62,6 @@ function Search({ name, setName, setRegion }) {
                 type="button"
                 onClick={ () => {
                   setOpen(false);
-                  setName('');
                   setRegion(region);
                 } }
               >
