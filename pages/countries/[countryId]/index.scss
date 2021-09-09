@@ -45,20 +45,20 @@
       height: 1.75rem;
       font-size: 0.875rem;
     }
-  }
 
-  &__title,
-  &__none {
-    font-size: 1rem;
-  }
+    &__title,
+    &__none {
+      font-size: 1rem;
+    }
 
-  &__none {
-    font-weight: var(--fw-light);
-  }
+    &__none {
+      font-weight: var(--fw-light);
+    }
 
-  &__title {
-    @include breakpoint-down(medium) {
-      width: 100%;
+    &__title {
+      @include breakpoint-down(medium) {
+        width: 100%;
+      }
     }
   }
 }
