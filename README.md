@@ -45,8 +45,9 @@ Usuários devem ser capazes de:
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - [PostCss](https://postcss.org/) - Pós-processador CSS
 - [Gulp](https://gulpjs.com/) - Toolkit de automação de tarefas JavaScript
-- Workflow Mobile-first
+- [Webpack](https://webpack.js.org/) - Module bundler
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
+- Workflow Mobile-first
 
 <!-- ### O que aprendi
 
