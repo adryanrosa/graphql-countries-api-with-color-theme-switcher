@@ -43,7 +43,7 @@ Usuários devem ser capazes de:
 
 - [Next.js](https://nextjs.org/) - Framework React
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
-- [PostCss](https://postcss.org/) - Pós-processador CSS
+- [PostCSS](https://postcss.org/) - Pós-processador CSS
 - [Gulp](https://gulpjs.com/) - Toolkit de automação de tarefas JavaScript
 - [Webpack](https://webpack.js.org/) - Module bundler
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
