@@ -12,7 +12,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-<!--   - [Recursos úteis](#recursos-úteis) -->
+- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
@@ -73,9 +73,9 @@ const proudOfThisFunc = () => {
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-<!-- ### Recursos úteis
+### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar utilizando-as daqui pra frente. -->
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código.
 
 <!-- ## Autor
 
