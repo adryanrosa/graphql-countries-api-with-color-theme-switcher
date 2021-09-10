@@ -8,7 +8,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
   - [O site](#o-site)
   - [A proposta](#a-proposta)
   - [Screenshots](#screenshots)
-- [A proposta](#a-proposta)
+- [O Processo](#o-processo)
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
