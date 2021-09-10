@@ -24,7 +24,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 
 Usuários devem ser capazes de:
 
-<!-- - View the optimal layout for the site depending on their device's screen size -->
+- Visualizar o layout do site otimizado para o tamanho de sua tela 
 - Ver todos os países da API na Home
 - Pesquisar por países usando o campo de input
 - Filtrar países por região
