@@ -7,7 +7,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 - [Visão geral](#visão-geral)
   - [O site](#o-site)
   - [A proposta](#a-proposta)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
 - [A proposta](#a-proposta)
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
@@ -32,7 +32,7 @@ Usuários devem ser capazes de:
 - Navegar pelos países que fazem fronteira na página de detalhes
 - Mudar entre modo claro e escuro
 
-### Screenshot
+### Screenshots
 
 ![image](./screenshot.png)
 ![image](./screenshot-2.png)
