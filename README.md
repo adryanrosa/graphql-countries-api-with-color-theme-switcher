@@ -34,8 +34,8 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./screenshot.png)
-(screeenshot-2.png)
+[https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca](./screenshot.png)
+[https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca](./screeenshot-2.png)
 
 ## O processo
 
