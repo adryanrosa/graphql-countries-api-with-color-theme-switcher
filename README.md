@@ -34,8 +34,7 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/81928512/132782729-9c0a35e8-db25-463b-b74d-a5ef4540527a.png)
-![image](https://user-images.githubusercontent.com/81928512/132782744-bc775d81-3ba7-4ca8-83ff-66b4ad4a73b4.png)
+![image](https://user-images.githubusercontent.com/81928512/132782829-589a53f6-c529-49a8-802c-2761ad6025e1.png)
 
 ## O processo
 
