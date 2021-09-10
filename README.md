@@ -34,7 +34,8 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/81928512/132782829-589a53f6-c529-49a8-802c-2761ad6025e1.png)
+![image](./screenshot.png)
+![image](./screenshot-2.png)
 
 ## O processo
 
