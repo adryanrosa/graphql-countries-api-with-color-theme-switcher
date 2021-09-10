@@ -34,8 +34,10 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./screeenshot.png)
-![](./screenshot-2.png)
+![image](./screeenshot.png)
+![image](./screenshot-2.png)
+![image](https://user-images.githubusercontent.com/81928512/132782678-06acfd23-77d9-4547-97b2-33fe7bff5ff9.png)
+
 
 ## O processo
 
