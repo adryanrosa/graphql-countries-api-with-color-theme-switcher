@@ -34,8 +34,8 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![Teste](./screenshot-2.png)
-![Testando](./screeenshot.png)
+![](./screeenshot.png)
+![](./screenshot-2.png)
 
 ## O processo
 
