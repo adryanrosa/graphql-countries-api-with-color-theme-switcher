@@ -12,7 +12,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-  - [Recursos úteis](#recursos-úteis)
+<!--   - [Recursos úteis](#recursos-úteis) -->
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
