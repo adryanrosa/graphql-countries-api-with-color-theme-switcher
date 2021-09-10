@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher
+# Frontend Mentor - Countries API with color theme switcher
 
 Essa é uma solução do desafio [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) por [Frontend Mentor](https://www.frontendmentor.io).
 
@@ -35,6 +35,7 @@ Usuários devem ser capazes de:
 ### Screenshot
 
 ![](./screenshot.png)
+(screeenshot-2.png)
 
 ## O processo
 
