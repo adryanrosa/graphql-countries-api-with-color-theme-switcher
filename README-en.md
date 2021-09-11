@@ -20,12 +20,12 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 
 ### Live site and instructions
 
-- Please visit my application [at](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Please visit my application [at](https://graphql-countries-api-with-color-theme-switcher.vercel.app/)
 - Want to check it locally? Follow the steps
   1. Clone the repository
-    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
+    * `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`.
     * Enter the cloned repository folder:
-     * `cd url-shortening-api-landing-page`
+     * `cd graphql-countries-api-with-color-theme-switcher.git`
 
   2. Install the dependencies and start the project
     * Install the dependencies:
