@@ -68,7 +68,7 @@ function Details({ country: { node } }) {
                 )
                 : (
                   <dl>
-                    <DescriptionListItem title="Borders" description="None" />
+                    <DescriptionListItem title="Borders" />
                   </dl>
                 )
             }
