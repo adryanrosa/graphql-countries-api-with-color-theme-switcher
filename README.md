@@ -21,15 +21,15 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 - Quer acessar minha aplicação? Clique [aqui](https://graphql-countries-api-with-color-theme-switcher-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
-    `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`.
+    * `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`.
     * Entre na pasta do repositório que você acabou de clonar:
-      `cd graphql-countries-api-with-color-theme-switcher`
+     * `cd graphql-countries-api-with-color-theme-switcher`
 
   2. Instale as dependências e inicialize o projeto
     * Instale as dependências:
-      `npm install`
+     * `npm install`
     * Inicialize o projeto:
-      `npm run dev` (uma nova página deve abrir no seu navegador)
+     * `npm run dev` (uma nova página deve abrir no seu navegador)
 
 ### A proposta
 
