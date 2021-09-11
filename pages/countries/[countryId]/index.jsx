@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { request, gql } from 'graphql-request';
 
-import DescriptionListItem from './DescriptionListItem';
+import DescriptionListItem from '../../../components/DescriptionListItem';
 import Button from '../../../components/UI/Button';
 import IconArrow from '../../../icons/arrow-left.svg';
 
