@@ -6,6 +6,6 @@
 @use "../components/Countries";
 @use "../components/Countries/Country";
 @use "../components/Search";
+@use "../components/DescriptionListItem";
 
 @use "../pages/countries/[countryId]/index.scss";
-@use "../pages/countries/[countryId]/DescriptionListItem";
