@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher
+# Frontend Mentor - Countries API with color theme switcher
 
 Essa é uma solução do desafio [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) por [Frontend Mentor](https://www.frontendmentor.io).
 
@@ -7,12 +7,12 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 - [Visão geral](#visão-geral)
   - [O site](#o-site)
   - [A proposta](#a-proposta)
-  - [Screenshot](#screenshot)
-- [A proposta](#a-proposta)
+  - [Screenshots](#screenshots)
+- [O Processo](#o-processo)
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-<!--   - [Recursos úteis](#recursos-úteis) -->
+- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
@@ -24,7 +24,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 
 Usuários devem ser capazes de:
 
-<!-- - View the optimal layout for the site depending on their device's screen size -->
+- Visualizar o layout do site otimizado para o tamanho de sua tela 
 - Ver todos os países da API na Home
 - Pesquisar por países usando o campo de input
 - Filtrar países por região
@@ -32,9 +32,10 @@ Usuários devem ser capazes de:
 - Navegar pelos países que fazem fronteira na página de detalhes
 - Mudar entre modo claro e escuro
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.png)
+![image](./screenshot.png)
+![image](./screenshot-2.png)
 
 ## O processo
 
@@ -42,10 +43,11 @@ Usuários devem ser capazes de:
 
 - [Next.js](https://nextjs.org/) - Framework React
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
-- [PostCss](https://postcss.org/) - Pós-processador CSS
+- [PostCSS](https://postcss.org/) - Pós-processador CSS
 - [Gulp](https://gulpjs.com/) - Toolkit de automação de tarefas JavaScript
-- Workflow Mobile-first
+- [Webpack](https://webpack.js.org/) - Module bundler
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
+- Workflow Mobile-first
 
 <!-- ### O que aprendi
 
@@ -71,9 +73,9 @@ const proudOfThisFunc = () => {
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-<!-- ### Recursos úteis
+### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar utilizando-as daqui pra frente. -->
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código
 
 <!-- ## Autor
 
