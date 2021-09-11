@@ -46,8 +46,8 @@ Usuários devem ser capazes de:
 
 ### Screenshots
 
-![image](./screenshot.png)
-![image](./screenshot-2.png)
+![screenshot](./screenshot.png)
+![screenshot-2](./screenshot-2.png)
 
 ## O processo
 
@@ -64,7 +64,7 @@ Usuários devem ser capazes de:
 
 ### Recursos úteis
 
-- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código. Recomendo a quem estiver estudando essas ferramentas
 
 <!-- ### O que aprendi
 
