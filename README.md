@@ -10,14 +10,15 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
   - [Screenshots](#screenshots)
 - [O Processo](#o-processo)
   - [Feito com ](#feito-com)
+  - [Recursos úteis](#recursos-úteis)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
 
 ### O site
+
 - Quer acessar minha aplicação? Clique [aqui](https://graphql-countries-api-with-color-theme-switcher-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
@@ -60,6 +61,11 @@ Usuários devem ser capazes de:
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
 - Workflow Mobile-first
 
+
+### Recursos úteis
+
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código
+
 <!-- ### O que aprendi
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
@@ -83,10 +89,6 @@ const proudOfThisFunc = () => {
 ### Desenvolvimento contínuo
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
-
-### Recursos úteis
-
-- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código
 
 <!-- ## Autor
 
