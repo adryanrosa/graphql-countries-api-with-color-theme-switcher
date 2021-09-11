@@ -48,24 +48,31 @@ function Details({ country: { node } }) {
               </dl>
             </div>
 
-            <ul className="details__borders">
-              <span className="details__borders__title">Border Countries:</span>
-              {
-                borders.length > 0
-                  ? (
-                    borders.map((item) => (
-                      <li key={ item }>
-                        <Link href={ `/countries/${item}` }>
-                          <div>
-                            <Button type="button">{item}</Button>
-                          </div>
-                        </Link>
-                      </li>
-                    ))
-                  )
-                  : <span className="details__borders__none">None</span>
-              }
-            </ul>
+            {
+              borders.length > 0
+                ? (
+                  <ul className="details__borders">
+                    <span className="details__borders__title">Border Countries:</span>
+                    {
+                      borders.map((item) => (
+                        <li key={ item }>
+                          <Link href={ `/countries/${item}` }>
+                            <div>
+                              <Button type="button">{item}</Button>
+                            </div>
+                          </Link>
+                        </li>
+                      ))
+                    }
+                  </ul>
+                )
+                : (
+                  <dl>
+                    <DescriptionListItem title="Borders" description="None" />
+                  </dl>
+                )
+            }
+
           </div>
         </div>
       </div>
