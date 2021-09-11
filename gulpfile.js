@@ -5,10 +5,10 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
 function scssTask() {
-  return src('sass/main.scss', { sourcemaps: true })
+  return src('src/sass/main.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
-    .pipe(dest('css', { sourcemaps: '.' }));
+    .pipe(dest('src/css', { sourcemaps: '.' }));
 }
 
 function watchTask() {

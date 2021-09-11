@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { useTheme } from 'next-themes';
 
 import { useEffect, useState } from 'react';
-import IconMoon from '../../icons/moon.svg';
-import IconMoonFill from '../../icons/moon-fill.svg';
+import IconMoon from '../../../public/icons/moon.svg';
+import IconMoonFill from '../../../public/icons/moon-fill.svg';
 
 function Header() {
   const { theme, setTheme } = useTheme();

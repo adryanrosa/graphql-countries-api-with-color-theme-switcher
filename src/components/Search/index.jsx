@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import IconSearch from '../../icons/search.svg';
-import IconChevron from '../../icons/chevron-down.svg';
+import IconSearch from '../../../public/icons/search.svg';
+import IconChevron from '../../../public/icons/chevron-down.svg';
 
 function Search({ name, setName, setRegion }) {
   const [open, setOpen] = useState(false);

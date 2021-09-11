@@ -1,0 +1,11 @@
+@use "globals";
+
+@use "../../src/UI/Button";
+
+@use "../../src/components/Header";
+@use "../../src/components/Countries";
+@use "../../src/components/Countries/Country";
+@use "../../src/components/Search";
+@use "../../src/components/DescriptionListItem";
+
+@use "../../pages/countries/[countryId]/index.scss";

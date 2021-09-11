@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { ThemeProvider } from 'next-themes';
 import NextNprogress from 'nextjs-progressbar';
 
-import '../css/main.css';
-import Header from '../components/Header';
+import '../src/css/main.css';
+import Header from '../src/components/Header';
 
 function App({ Component, pageProps }) {
   return (

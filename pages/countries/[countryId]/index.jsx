@@ -3,9 +3,9 @@
 import Link from 'next/link';
 import { request, gql } from 'graphql-request';
 
-import DescriptionListItem from '../../../components/DescriptionListItem';
-import Button from '../../../components/UI/Button';
-import IconArrow from '../../../icons/arrow-left.svg';
+import DescriptionListItem from '../../../src/components/DescriptionListItem';
+import Button from '../../../src/UI/Button';
+import IconArrow from '../../../public/icons/arrow-left.svg';
 
 function Details({ country: { node } }) {
   const { flag, name, nativeName, population, region, subregion, capital, topLevelDomain, currencies, languages, borders } = node;

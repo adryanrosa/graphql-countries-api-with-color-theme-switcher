@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { request, gql } from 'graphql-request';
 
-import Countries from '../components/Countries';
-import Search from '../components/Search';
+import Countries from '../src/components/Countries';
+import Search from '../src/components/Search';
 
 function Home({ countries }) {
   const [nameSearch, setNameSearch] = useState('');
