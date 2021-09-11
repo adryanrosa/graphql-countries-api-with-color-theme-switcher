@@ -65,7 +65,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Seeing a real-world Gulp/Sass project setup helped my code architecture choices. I'd recommend it to anyone learning these tools.
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Seeing a real-world Gulp/Sass project setup helped make my code architecture choices. I'd recommend it to anyone learning these tools.
 
 <!-- ### O que aprendi
 
