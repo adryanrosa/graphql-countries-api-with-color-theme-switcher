@@ -4,17 +4,19 @@ function DescriptionListItem({ title, description }) {
       <dt>{`${title}:`}</dt>
       {' '}
       {
-        Array.isArray(description)
-          ? (
-            <dd>
-              {description
-                .reduce((acc, { node: { name } }) => [...acc, name], [])
-                .join(', ')}
-            </dd>
-          )
-          : <dd>{description}</dd>
+        description && (
+          Array.isArray(description)
+            ? (
+              <dd>
+                {description
+                  .reduce((acc, { node: { name } }) => [...acc, name], [])
+                  .join(', ')}
+              </dd>
+            )
+            : <dd>{description}</dd>
+        )
       }
-      {description ? '' : <dd>None</dd> }
+      {!description && <dd>None</dd> }
     </div>
   );
 }
