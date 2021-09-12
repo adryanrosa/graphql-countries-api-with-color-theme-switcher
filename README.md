@@ -1,7 +1,7 @@
 # Frontend Mentor - Countries API with color theme switcher
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/adryanrosa/graphql-countries-api-with-color-theme-switcher/blob/main/README-en.md)
 
-Essa é uma solução do desafio [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) por [Frontend Mentor](https://www.frontendmentor.io).
+Essa é uma solução do desafio [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) por [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Sumário
 
@@ -23,7 +23,7 @@ Essa é uma solução do desafio [Countries API with color theme switcher](https
 - Quer acessar minha aplicação? Clique [aqui](https://graphql-countries-api-with-color-theme-switcher-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
-    * `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`.
+    * `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`
     * Entre na pasta do repositório que você acabou de clonar:
      * `cd graphql-countries-api-with-color-theme-switcher`
 
@@ -57,7 +57,7 @@ Usuários devem ser capazes de:
 - [Next.js](https://nextjs.org/) - Framework React
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - [PostCSS](https://postcss.org/) - Pós-processador CSS
-- [Gulp](https://gulpjs.com/) - Toolkit de automação de tarefas JavaScript
+- [Gulp](https://gulpjs.com/) - Toolkit JavaScript para automação de tarefas
 - [Webpack](https://webpack.js.org/) - Module bundler
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
 - Workflow Mobile-first
