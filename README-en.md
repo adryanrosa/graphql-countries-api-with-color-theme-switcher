@@ -55,13 +55,14 @@ Users should be able to:
 ### Built with
 
 - [Next.js](https://nextjs.org/) - React Framework
+- [QraphQL Request](https://github.com/prisma-labs/graphql-request) - GraphQL client
 - [Sass](https://sass-lang.com/) - CSS preprocessor
 - [PostCSS](https://postcss.org/) - CSS postprocessor
 - [Gulp](https://gulpjs.com/) - JavaScript task automating toolkit
 - [Webpack](https://webpack.js.org/) - Module bundler
 - [BEM](http://getbem.com/introduction/) - CSS methodology
+- [GraphQL Country](https://graphql.country/) - GraphQL API
 - Mobile-first Workflow
-
 
 ### Useful resources
 
