@@ -1,5 +1,5 @@
 # Frontend Mentor - Countries API with color theme switcher
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/graphql-countries-api-with-color-theme-switcher/blob/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/graphql-countries-api-with-color-theme-switcher/blob/main/README-pt.md)
 
 This is a solution to the [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) challenge on [Frontend Mentor](https://www.frontendmentor.io)
 
