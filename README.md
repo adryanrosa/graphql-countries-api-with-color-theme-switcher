@@ -1,53 +1,72 @@
 # Frontend Mentor - Countries API with color theme switcher
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/graphql-countries-api-with-color-theme-switcher/blob/main/README-pt.md)
 
-Essa é uma solução do desafio [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) por [Frontend Mentor](https://www.frontendmentor.io).
+This is a solution to the [Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) challenge on [Frontend Mentor](https://www.frontendmentor.io)
 
-## Sumário
+## Table of contents
 
-- [Visão geral](#visão-geral)
-  - [O site](#o-site)
-  - [A proposta](#a-proposta)
-  - [Screenshots](#screenshots)
-- [O Processo](#o-processo)
-  - [Feito com ](#feito-com)
+- [Overview](#overview)
+  - [Live site and instructions](#live-site-and-instructions)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
-## Visão geral
+## Overview
 
-### O site
-- Quer testar minha aplicação? Clique [aqui](https://graphql-countries-api-with-color-theme-switcher-adryanrosa.vercel.app/)
+### Live site and instructions
 
-### A proposta
+- Please visit my application [at](https://graphql-countries-api-with-color-theme-switcher.vercel.app/)
+- Want to check it locally? Follow the steps
+  1. Clone the repository
+    * `git clone git@github.com:adryanrosa/graphql-countries-api-with-color-theme-switcher.git`
+    * Enter the cloned repository folder:
+     * `cd graphql-countries-api-with-color-theme-switcher.git`
 
-Usuários devem ser capazes de:
+  2. Install the dependencies and start the project
+    * Install the dependencies:
+     * `npm install`
+    * Start the project:
+     * `npm run dev` (a new tab should open in your default browser)
 
-- Visualizar o layout do site otimizado para o tamanho de sua tela 
-- Ver todos os países da API na Home
-- Pesquisar por países usando o campo de input
-- Filtrar países por região
-- Clicar num país para ver mais informações em uma nova página
-- Navegar pelos países que fazem fronteira na página de detalhes
-- Mudar entre modo claro e escuro
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode
 
 ### Screenshots
 
-![image](./screenshot.png)
-![image](./screenshot-2.png)
+![screenshot](./screenshot.png)
+![screenshot-2](./screenshot-2.png)
 
-## O processo
+## My process
 
-### Feito com
+### Built with
 
-- [Next.js](https://nextjs.org/) - Framework React
-- [Sass](https://sass-lang.com/) - Pré-processador CSS
-- [PostCSS](https://postcss.org/) - Pós-processador CSS
-- [Gulp](https://gulpjs.com/) - Toolkit de automação de tarefas JavaScript
+- [Next.js](https://nextjs.org/) - React Framework
+- [QraphQL Request](https://github.com/prisma-labs/graphql-request) - GraphQL client
+- [Sass](https://sass-lang.com/) - CSS preprocessor
+- [PostCSS](https://postcss.org/) - CSS postprocessor
+- [Gulp](https://gulpjs.com/) - JavaScript task automating toolkit
 - [Webpack](https://webpack.js.org/) - Module bundler
-- [BEM](http://getbem.com/introduction/) - Metodologia CSS
-- Workflow Mobile-first
+- [BEM](http://getbem.com/introduction/) - CSS methodology
+- [GraphQL Country](https://graphql.country/) - GraphQL API
+- Mobile-first Workflow
+
+### Useful resources
+
+- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Seeing a real-world Gulp/Sass project setup helped make my code architecture choices. I'd recommend it to anyone learning these tools
 
 <!-- ### O que aprendi
 
@@ -72,10 +91,6 @@ const proudOfThisFunc = () => {
 ### Desenvolvimento contínuo
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
-
-### Recursos úteis
-
-- [A real-world website project setup](https://www.youtube.com/watch?v=nI0BfXFjI1I&t=2850s) - Ver o funcionamento de um workflow Gulp/Sass num projeto real me ajudou a fazer escolhas quanto a arquitetura do meu código
 
 <!-- ## Autor
 
