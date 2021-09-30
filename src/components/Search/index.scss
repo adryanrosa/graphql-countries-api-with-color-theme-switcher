@@ -61,13 +61,14 @@
     width: 15rem;
 
     @include breakpoint-up(large) {
-      width: 16rem;
+      width: 16.5rem;
     }
   }
 
   &__select {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 2.5rem;
     cursor: pointer;
     border: none;
@@ -85,7 +86,6 @@
   &__icon-chevron {
     display: flex;
     align-items: center;
-    margin-left: 4rem;
     font-size: 0.625rem;
 
     @include breakpoint-up(large) {
